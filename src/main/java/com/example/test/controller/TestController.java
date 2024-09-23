@@ -9,6 +9,6 @@ public class TestController {
     @GetMapping("/Hello")
     public String Hello(@RequestParam String str){
         System.out.println(str);
-        return "Helloooodddddddddd";
+        return "Hellooooddddddddddssss";
     }
 }
