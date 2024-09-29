@@ -1,0 +1,27 @@
+body {
+    background: url('../img/corgi_loginPage_bg.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* 移除預設邊距 */
+    width: 100%; /* 設置寬度為100% */
+    background-size: 1920px 919px; /* 設置具體寬度和高度 */
+}
+.login-container {
+    max-width: 500px; /* 調整最大寬度 */
+    width: 100%; /* 設置寬度為100%以便在小螢幕上自適應 */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.651);
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+h2 {
+    margin-bottom: 1.5rem;
+}

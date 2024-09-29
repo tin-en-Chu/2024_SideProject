@@ -1,0 +1,8 @@
+#mainPageHeadPic {
+    width: 100px;
+    height: auto;
+}
+
+#mainPageHeadTag {
+    display: flex;
+}
